@@ -1,11 +1,11 @@
 export const Promo = () => {
     return (
-        <div className="promo h-[865px] bg-[url('./public/promo.png')] bg-no-repeat bg-cover">
+        <div className="promo h-[865px] bg-[url('./promo.png')] bg-no-repeat bg-cover">
             <div className="bg-color h-full w-full bg-custom-gradient">
                 <div className="container">
                     <header className="flex justify-between p-10">
                         <div>
-                            <img src="./public/logo.png" alt="housesal-logo" />
+                            <img src="./logo.png" alt="housesal-logo" />
                         </div>
                         <nav>
                             <ul className="flex gap-10">
