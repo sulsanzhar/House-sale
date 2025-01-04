@@ -48,7 +48,7 @@ export const WhyBlock = () => {
                         <div className="bg-backgroundColorVector absolute w-[475px] h-[430px] right-[20px]" />
                         <img
                             className="relative bottom-7"
-                            src="./public/house-2.png"
+                            src="./house-2.png"
                             alt="house-2"
                         />
                     </div>

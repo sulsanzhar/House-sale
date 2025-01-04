@@ -6,7 +6,7 @@ export const Cards = () => {
                     <div className="card w-[400px]">
                         <img
                             className="w-full h-96"
-                            src="../../1card.png"
+                            src="./1card.png"
                             alt="1-card"
                         />
                         <div className="flex justify-center items-center gap-8 shadow-cardShadow h-32">
@@ -21,7 +21,7 @@ export const Cards = () => {
                     <div className="card w-[400px]">
                         <img
                             className="w-full h-96"
-                            src="../../2card.png"
+                            src="./2card.png"
                             alt="1-card"
                         />
                         <div className="flex justify-center items-center gap-8 shadow-cardShadow h-32">
@@ -36,7 +36,7 @@ export const Cards = () => {
                     <div className="card w-[400px]">
                         <img
                             className="w-full h-96"
-                            src="../../3card.png"
+                            src="./3card.png"
                             alt="1-card"
                         />
                         <div className="flex justify-center items-center gap-8 shadow-cardShadow h-32">
