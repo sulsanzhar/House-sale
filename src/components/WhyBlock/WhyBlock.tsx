@@ -7,10 +7,10 @@ export const WhyBlock = () => {
     return (
         <div className="whyBlock mt-24">
             <div className="container">
-                <h2 className="font-nunito text-4xl font-semibold">
+                <h2 className="text-center xl:text-left font-nunito text-4xl font-semibold">
                     Why HOUSESALE Company?
                 </h2>
-                <div className="flex justify-between">
+                <div className="flex justify-center xl:justify-between">
                     <div className="flex flex-col gap-12 mt-[72px]">
                         <div className="group flex gap-7">
                             <img src={promote} alt="promote" />
@@ -49,10 +49,10 @@ export const WhyBlock = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative">
-                        <div className="bg-backgroundColorVector absolute w-[475px] h-[430px] right-[20px]" />
+                    <div className="hidden xl:block relative">
+                        <div className="bg-backgroundColorVector absolute w-[31vw] h-[31vw] right-[20px]" />
                         <img
-                            className="relative bottom-7"
+                            className="relative bottom-7 w-[31vw]"
                             src={house2}
                             alt="house-2"
                         />

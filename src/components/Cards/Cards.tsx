@@ -7,7 +7,7 @@ export const Cards = () => {
     return (
         <div className="cards mt-16">
             <div className="container">
-                <div className="flex justify-center gap-5">
+                <div className="flex justify-center gap-5 flex-wrap">
                     <div className="card w-[400px]">
                         <img className="w-full h-96" src={card1} alt="1-card" />
                         <div className="flex justify-center items-center gap-8 shadow-cardShadow h-32">

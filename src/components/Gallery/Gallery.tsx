@@ -9,10 +9,10 @@ export const Gallery = () => {
     return (
         <div className="gallery mt-32">
             <div className="container">
-                <h2 className="font-nunito font-semibold text-4xl">
+                <h2 className="font-nunito font-semibold sm:text-center xl:text-left text-4xl">
                     More ideas and inspiration
                 </h2>
-                <div className="grid grid-cols-4 justify-items-center gap-y-5 mt-16">
+                <div className="grid xs:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-y-5 mt-16">
                     <img
                         className="w-[295px] max-w-none h-[405px]"
                         src={house1}

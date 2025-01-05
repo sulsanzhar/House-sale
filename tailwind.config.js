@@ -30,6 +30,14 @@ export default {
         cardShadow: '0px 4px 59px -14px rgba(171, 124, 0, 0.29)'
       }
     },
+    screens: {
+      "xs": "320px",
+      "sm": "480px",
+      "md": "600px",
+      "lg": "768px",
+      "xl": "1024px",
+      "2xl": "1200px",
+    }
   },
   plugins: [],
 }
