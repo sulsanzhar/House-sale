@@ -1,3 +1,8 @@
+import promote from "../../../public/promote.png";
+import group from "../../../public/group.png";
+import group2 from "../../../public/group2.png";
+import house2 from "../../../public/house-2.png";
+
 export const WhyBlock = () => {
     return (
         <div className="whyBlock mt-24">
@@ -8,7 +13,7 @@ export const WhyBlock = () => {
                 <div className="flex justify-between">
                     <div className="flex flex-col gap-12 mt-[72px]">
                         <div className="group flex gap-7">
-                            <img src="./promote.png" alt="promote" />
+                            <img src={promote} alt="promote" />
                             <div>
                                 <h3 className="font-nunito text-3xl">
                                     Transparent pricing
@@ -20,7 +25,7 @@ export const WhyBlock = () => {
                             </div>
                         </div>
                         <div className="group flex gap-7">
-                            <img src="./group.png" alt="group" />
+                            <img src={group} alt="group" />
                             <div>
                                 <h3 className="font-nunito text-3xl">
                                     Experts only
@@ -32,7 +37,7 @@ export const WhyBlock = () => {
                             </div>
                         </div>
                         <div className="group flex gap-7">
-                            <img src="./group2.png" alt="group2" />
+                            <img src={group2} alt="group2" />
                             <div>
                                 <h3 className="font-nunito text-3xl">
                                     Fully equipped
@@ -48,7 +53,7 @@ export const WhyBlock = () => {
                         <div className="bg-backgroundColorVector absolute w-[475px] h-[430px] right-[20px]" />
                         <img
                             className="relative bottom-7"
-                            src="./house-2.png"
+                            src={house2}
                             alt="house-2"
                         />
                     </div>

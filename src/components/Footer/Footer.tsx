@@ -1,3 +1,7 @@
+import logo from "../../../public/logo.png";
+import googleLogo from "../../../public/googlePlay-logo.png";
+import appleLogo from "../../../public/appStore-logo.png";
+
 export const Footer = () => {
     return (
         <footer className="bg-[#093A7A] h-[758px] mt-32">
@@ -137,7 +141,7 @@ export const Footer = () => {
                 </div>
                 <hr className="mt-9 mb-9 opacity-[16%]" />
                 <div className="flex items-center">
-                    <img className="mr-16" src="./logo.png" alt="logo" />
+                    <img className="mr-16" src={logo} alt="logo" />
                     <p className="font-roboto text-xs text-[#CACACA] mr-14">
                         © 2021 Housesale Technologies Ltd.
                     </p>
@@ -152,10 +156,10 @@ export const Footer = () => {
                     </a>
                     <img
                         className="mr-12"
-                        src="./googlePlay-logo.png"
+                        src={googleLogo}
                         alt="google play logo"
                     />
-                    <img src="./appStore-logo.png" alt="app store logo" />
+                    <img src={appleLogo} alt="app store logo" />
                 </div>
             </div>
         </footer>

@@ -21,6 +21,7 @@ export default {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(1deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.47) 100.48%, rgba(38, 92, 174, 0.01) 100.49%, rgba(195, 195, 196, 0.01) 100.5%, #76A6EF 100.51%)',
+        promo: `url('/promo.png')`,
       },
       colors: {
         backgroundColorVector: '#FFC839',

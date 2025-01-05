@@ -1,3 +1,12 @@
+import house1 from "../../../public/house-1.png";
+import house2 from "../../../public/house-2.png";
+import house3 from "../../../public/house-3.png";
+import house4 from "../../../public/house-4.png";
+import house5 from "../../../public/house-5.png";
+import house6 from "../../../public/house-6.png";
+import house7 from "../../../public/house-7.png";
+import house8 from "../../../public/house-8.png";
+
 export const Gallery = () => {
     return (
         <div className="gallery mt-32">
@@ -8,42 +17,42 @@ export const Gallery = () => {
                 <div className="grid grid-cols-4 justify-items-center gap-y-5 mt-16">
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-1.png"
+                        src={house1}
                         alt="house-1"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-2.png"
+                        src={house2}
                         alt="house-2"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-3.png"
+                        src={house3}
                         alt="house-3"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-4.png"
+                        src={house4}
                         alt="house-4"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-2.png"
+                        src={house2}
                         alt="house-5"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-6.png"
+                        src={house6}
                         alt="house-6"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-7.png"
+                        src={house7}
                         alt="house-7"
                     />
                     <img
                         className="w-[295px] max-w-none h-[405px]"
-                        src="./house-2.png"
+                        src={house2}
                         alt="house-8"
                     />
                 </div>
