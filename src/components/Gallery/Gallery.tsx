@@ -2,10 +2,8 @@ import house1 from "../../../public/house-1.png";
 import house2 from "../../../public/house-2.png";
 import house3 from "../../../public/house-3.png";
 import house4 from "../../../public/house-4.png";
-import house5 from "../../../public/house-5.png";
 import house6 from "../../../public/house-6.png";
 import house7 from "../../../public/house-7.png";
-import house8 from "../../../public/house-8.png";
 
 export const Gallery = () => {
     return (
